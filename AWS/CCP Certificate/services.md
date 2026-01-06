@@ -61,7 +61,6 @@
 
 | Service | Purpose | How it Works | Pricing |
 |-------|--------|-------------|--------|
-| **AWS Macie** <br> <img src="Images/image-42.png" width="100"/> | Identify and protect sensitive data | Detects sensitive data, identifies risks, and provides insights | Pay as you go based on assessments |
 | **Amazon CloudWatch**  <br> <img src="Images/image-33.png" width="100"/> | Monitor performance and health | Collects metrics, logs, alarms, dashboards, and sends alerts | Basic metrics free; logs, custom metrics, alarms pay as you go |
 | **AWS CloudTrail** <br> <img src="Images/image-32.png" width="100"/> | Track account activity | Records who did what, when, and from where; stores logs in S3; multi-region | Management events free; data events pay as you go |
 | **AWS Config** <br> <img src="Images/image-31.png" width="100"/>  | Track configuration changes | Records resource configurations, detects changes, evaluates compliance | Pay as you go based on resources and rules |
@@ -139,6 +138,36 @@
 | **Amazon S3 Standard-IA** | Lower-cost storage for infrequently accessed data with millisecond retrieval | Backups, disaster recovery |
 | **Amazon S3 Glacier Instant Retrieval** | Low-cost archival storage with instant access | Archive data that still needs fast access |
 | **Amazon S3 Glacier Flexible Retrieval** | Archival storage with retrieval in minutes to hours | Archives accessed occasionally |
-| **Amazon S3 Glacier Deep Archive** | Lowest-cost storage with very slow retrieval | Long-term retention, compliance data |
+| **Amazon S3 Glacier Deep Archive** | L
+owest-cost storage with very slow retrieval | Long-term retention, compliance data |
+| **AWS Macie** <br> <img src="Images/image-42.png" width="100"/> | Identify and protect sensitive data | Detects sensitive data, identifies risks, and provides insights 
+## AI  Services (APIs and pretrained models)
+| Service | Description | Typical Use |
+|-------|------------|-------------|
+| **Amazon Rekognition** <br> <img src="Images/image-49.png" width="100"/> | Image and video analysis service | Object detection, facial recognition |
+| **Amazon Lex**  <br> <img src="Images/image-47.png" width="100"/> | Conversational AI service | Build chatbots and voice assistants |
+| **Amazon Polly** <br> <img src="Images/image-48.png" width="100"/> | Text-to-speech service | Convert text to natural-sounding speech |
+| **Amazon Translate** <br> <img src="Images/image-50.png" width="100"/> | Language translation service | Translate text between languages |
 
-## Amazon S3 Storage Classes
+
+## Machine Learning Services
+| Service | Description | Typical Use |
+|-------|------------|-------------|
+| **Amazon SageMaker** <br> <img src="Images/image-51.png" width="100"/> | End-to-end machine learning platform | Build, train, and deploy ML models at scale |
+| **AWS Textract** <br> <img src="Images/image-52.png" width="100"/> | Document analysis service | Extract text and data from scanned documents |
+| **AWS Comprehend** <br> <img src="Images/image-55.png" width="100"/> | Natural language processing service | Sentiment analysis, entity recognition |
+| **AWS Kendra** <br> <img src="Images/image-54.png" width="100"/> | Enterprise search service | Intelligent search across documents and data sources |
+| **Amazon Transcribe** <br> <img src="Images/image-53.png" width="100"/> | Automatic speech recognition service | Convert speech to text |
+
+
+## Analytics Services
+| Service | Description | Typical Use |
+|-------|------------|-------------|
+| **Amazon Athena** <br> <img src="Images/image-56.png" width="100"/> | Serverless interactive query service | Analyze data in S3 using SQL |
+| **Amazon EMR** <br> <img src="Images/image-57.png" width="100"/> | Managed big data platform | Process large datasets using Hadoop, Spark |
+| **Amazon Kinesis** <br> <img src="Images/image-58.png" width="100"/> | Real-time data streaming service | Collect, process, and analyze streaming data |
+| **AWS Glue** <br> <img src="Images/image-59.png" width="100"/> | Managed ETL service | Prepare and transform data for analytics |
+| **Amazon QuickSight** <br> <img src="Images/image-60.png" width="100"/> | Business intelligence service | Create visualizations and dashboards |
+| **Amazon OpenSearch Service** <br> <img src="Images/image-61.png" width="100"/> | Search and analytics engine | Full-text search, log analytics, real-time application monitoring |
+
+
