@@ -176,3 +176,70 @@ owest-cost storage with very slow retrieval | Long-term retention, compliance da
 | **Amazon OpenSearch Service** <br> <img src="Images/image-61.png" width="100"/> | Search and analytics engine | Full-text search, log analytics, real-time application monitoring |
 
 
+### Observability and Monitoring
+| Service | Description | Typical Use |
+|-------|------------|-------------|
+| **Amazon CloudWatch** <br> <img src="Images/image-64.png" width="100"/> | Metrics, logs, and alarms for AWS resources and apps	 | Operational monitoring, alerting, dashboards|
+| **Amazon CloudTrail** <br> <img src="Images/image-65.png" width="100"/> | Audit log of API calls and account activity | Security, compliance, forensics (who did what and when)|
+| **Amazon X-Ray** <br> <img src="Images/image-66.png" width="100"/> | Distributed tracing and service maps	 | Performance debugging, bottleneck detection in microservices
+ |
+
+### Business Application Services (Customer Engagement)
+
+A service that improves agility
+
+| Service | Capacity | Typical Use |
+|------|---------|-------------|
+| **Amazon Connect** </br>  <img src="Images/image-67.png" width="100"/>| Cloud contact center | Customer service; Voice and chat |
+| **Amazon Simple Email Service (Amazon SES)** </br>  <img src="Images/image-68.png" width="100"/>| Email sending Service|promotional, transactional, and marketing emails; From a custom domain; Inbound if configured| 
+
+
+### AWS support
+
+| Support Plan | Response Time (SLA) | Technical Guidance | Health Dashboard | 24/7 Support | TAM | Best For |
+|-------------|-------------|-------------------|------------------|-------------|-----|-----|
+| **Basic** | No SLA | Documentation & forums | Full | No | Shared (Pool) | All AWS customers |
+| **Developer** | < 24 hours | Core checks | Basic | No (business hours) | No | Dev & test environments |
+| **Business** | < 4 hours | Full checks | Enhanced | Yes | Dedicated | Production workloads |
+| **Enterprise On-Ramp** | < 1 hour | Full checks | Enhanced | 24/7 | Shared TAM | Growing organizations |
+| **Enterprise** | < 30 minutes | Core + proactive | Enhanced | 24/7 | Dedicated TAM | Mission-critical workloads |
+
+
+
+### End User computing Services
+
+
+| Service | Capacity | Typical Use |
+|------|---------|-------------|
+| **Amazon Workspaces** </br>  <img src="Images/image-71.png" width="100"/>| Fully managed virtual desktops for Windows and Linux | Provide users with cloud-based desktops (VDI)|
+| **Amazon AppStream 2.0** </br>  <img src="Images/image-72.png" width="100"/>| Streaming of applications|Access to specific apps| 
+| **Amazon Workspaces Web** </br>  <img src="Images/image-73.png" width="100"/>| Access via web|Access internal websites and SaaS apps via a web browser| 
+
+
+### Frontend web and mobile
+
+| Service | Capacity | Typical Use |
+|------|---------|-------------|
+| **AWS Aplify** </br>  <img src="Images/image-74.png" width="100"/>| virtual escritorios for linux and windows | Build, deploy, and host web and mobile applications |
+| **AWS AppSync** </br>  <img src="Images/image-75.png" width="100"/>| Managed GraphQL API service| Combine data from multiple sources (DynamoDB, Lambda, APIs) |
+
+### IoT
+
+| Service | Capacity | Typical Use |
+|------|---------|-------------|
+| **AWS IoT Core** </br>  <img src="Images/image-76.png" width="100"/>| Securely connect devices and ingest IoT data | Device-to-cloud secure communication |
+| **AWS IoT Greegrass** </br>  <img src="Images/image-77.png" width="100"/>| Edge computing (local processing) | Process data locally, reduce latency, operate offline|
+
+
+### Developer Services (DevOps)
+
+
+| Service | Capacity | Typical Use |
+|------|---------|-------------|
+|**AWS CodeCommit** </br>  <img src="Images/image-78.png" width="100"/>| Fully managed Git-based source control | Store and manage source code repository |
+|**AWS CodeBuild** </br>  <img src="Images/image-79.png" width="100"/>| Fully managed Build Service | Compile code, run test, produce build artifact |
+|**AWS CodeDeploy** </br>  <img src="Images/image-80.png" width="100"/>| Automated deployment service| Deploy applications to EC2, lambda or non premise |
+|**AWS CodePipeline** </br>  <img src="Images/image-81.png" width="100"/>| Continuous CI/CD orchestration| Automate build, test and deploy workflows |
+|**AWS CodeStar** </br>  <img src="Images/image-82.png" width="100"/>| Unified DevOps project template| Quickly set up CI/CD projects |
+|**AWS Cloud9** </br>  <img src="Images/image-83.png" width="100"/>| Cloud based IDE|Write, run, and debug code browser |
+|**AWS CloudShell** </br>  <img src="Images/image-84.png" width="100"/>| Browser based command line| Run AWS CLI without local set up |

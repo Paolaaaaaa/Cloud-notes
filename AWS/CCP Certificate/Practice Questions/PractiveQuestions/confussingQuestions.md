@@ -12,7 +12,7 @@ Qué servicio de AWS puede utilizar una empresa para detectar un corte en los se
 
    | Service | What is it? | Best Use Cases |
    |-------|------------|---------------|
-   | **Amazon Route 53** </br>  <img src="../Images/image-63.png" width="100"/> | Scalable DNS and domain registration | Website routing, health checks, global traffic management, Responses to failover |
+   | **Amazon Route 53** </br>  <img src="../../Images/image-63.png" width="100"/> | Scalable DNS and domain registration | Website routing, health checks, global traffic management, Responses to failover |
 
 ### Pregunta 2: 
 
@@ -32,8 +32,8 @@ Qué servicio de AWS puede utilizar una empresa para detectar un corte en los se
 
    | Service | What is it? | Best Use Cases |
    |-------|------------|---------------|
-   | **Security Groups** </br>  <img src="../Images/image-.png" width="100"/> | Virtual firewall for EC2 instances | Control inbound and outbound traffic at the instance level |
-   | **Network ACLs** </br>  <img src="../Images/image-65.png" width="100"/> | Stateless firewall for subnets in a VPC | Control traffic at the subnet level, provide an additional layer of security |
+   | **Security Groups** </br>  <img src="../../Images/image-58.png" width="100"/> | Virtual firewall for EC2 instances | Control inbound and outbound traffic at the instance level |
+   | **Network ACLs** </br>  <img src="../../Images/image-55.png" width="100"/> | Stateless firewall for subnets in a VPC | Control traffic at the subnet level, provide an additional layer of security |
 
 
 ### Pregunta 3: 
@@ -62,7 +62,7 @@ Después de seleccionar una reserva de servidor dedicado de Amazon EC2, ¿ qué 
 
    | Service | What is it? | Best Use Cases |
    |-------|------------|---------------|
-   | **AWS Client VPN** </br>  <img src="../Images/image-66.png" width="100"/> | Managed client-based VPN service | Securely connect users to AWS resources and on-premises networks from any location |
+   | **AWS Client VPN** </br>  <img src="../../Images/image-66.png" width="100"/> | Managed client-based VPN service | Securely connect users to AWS resources and on-premises networks from any location |
 
 
 ### Pregunta 5: 
@@ -184,7 +184,7 @@ Después de seleccionar una reserva de servidor dedicado de Amazon EC2, ¿ qué 
      **Respuesta correcta:**
    > D) Amazon Workspaces
 
-    ### Pregunta 14: 
+   ### Pregunta 14: 
 ¿Qué servicio de AWS ofrece una forma sencilla de configurar un nuevo entorno de AWS con múltiples cuentas y gobernanza a escala?
 
    
@@ -200,7 +200,7 @@ Después de seleccionar una reserva de servidor dedicado de Amazon EC2, ¿ qué 
 
 
 
-    ### Pregunta 15: 
+   ### Pregunta 15: 
 Un profesional de la nube tiene la tarea de desarrollar un plan de recuperación ante desastres y pretende replicar datos entre multiples áreas geograficas.
 
 ¿ Cuál es el componente de la nube de AWS que la empresa debe utilizar para cumplir dichos requisitos?
@@ -277,29 +277,33 @@ Una empresa quiere mejorar su postura de seguridad y auditoría limitando el acc
 
    ¿Qué tipos de instancias para los picos de tráfico y de base tienen MÁS optimización de costos para cumplir con estos requisitos?
 
-      - A) Instancias reservadas tanto para el pico de tráfico como para el tráfico base
-      - B) Instancias reservadas para el tráfico base e instancias de spot para el pico de tráfico mediante Amazon EC2 Fleet
-      - C) Instancias bajo demanda para tráfico base e instancias bajo demanda con escalado automático para picos de tráfico
-      - D) Instancias bajo demanda para el tráfico base e instancias de spot para los picos de tráfico mediante Amazon EC2 Fleet
+   - A) Instancias reservadas tanto para el pico de tráfico como para el tráfico base
+   - B) Instancias reservadas para el tráfico base e instancias de spot para el pico de tráfico mediante Amazon EC2 Fleet
+   - C) Instancias bajo demanda para tráfico base e instancias bajo demanda con escalado automático para picos de tráfico
+   - D) Instancias bajo demanda para el tráfico base e instancias de spot para los picos de tráfico mediante Amazon EC2 Fleet
 
-    > **Respuesta correcta:**  
-      > B) Instancias reservadas para el tráfico base e instancias de spot para el pico de tráfico mediante Amazon EC2 Fleet
+ **Respuesta correcta:**  
+   > B) Instancias reservadas para el tráfico base e instancias de spot para el pico de tráfico mediante Amazon EC2 Fleet
    
-      > Explicación: Las instancias reservadas optimizan costos para la capacidad base (compromiso 1–3 años). Las instancias Spot reducen costes en picos temporales; EC2 Fleet permite combinar tipos y objetivos de capacidad.  
-      > A es incorrecta porque las reservadas no son óptimas para picos temporales. C y D son menos costosas para la base que usar únicamente instancias bajo demanda.
+ > Explicación: Las instancias reservadas optimizan costos para la capacidad base (compromiso 1–3 años). Las instancias Spot reducen costes en picos temporales; EC2 Fleet permite combinar tipos y objetivos de capacidad.  
+
+   > A es incorrecta porque las reservadas no son óptimas para picos temporales. C y D son menos costosas para la base que usar únicamente instancias bajo demanda.
    
    ### Pregunta 21:
    
    ¿Cuál es un ejemplo de alta disponibilidad en la nube de AWS?
    
-      - A) Asesoramiento del soporte técnico de AWS en cualquier momento del día
-      - B) Garantía de la accesibilidad de una aplicación, incluso si falla un recurso
-      - C) Disponibilidad de cualquier servicio de AWS para su uso mediante el pago bajo demanda
-      - D) Implementación en cualquier parte del mundo con el uso de regiones de AWS
+   - A) Asesoramiento del soporte técnico de AWS en cualquier momento del día
+   - B) Garantía de la accesibilidad de una aplicación, incluso si falla un recurso
+   - C) Disponibilidad de cualquier servicio de AWS para su uso mediante el pago bajo demanda
+   - D) Implementación en cualquier parte del mundo con el uso de regiones de AWS
    
-      **Respuesta correcta:**
-      > B) Garantía de la accesibilidad de una aplicación, incluso si falla un recurso
+   **Respuesta correcta:**
+   > B) Garantía de la accesibilidad de una aplicación, incluso si falla un recurso
    
-      > Explicación: La alta disponibilidad asegura que una aplicación permanezca accesible aun si falla un recurso, evitando puntos únicos de error.
+   > Explicación: La alta disponibilidad asegura que una aplicación permanezca accesible aun si falla un recurso, evitando puntos únicos de error.
+   ______________
+   ________
+   
 
 

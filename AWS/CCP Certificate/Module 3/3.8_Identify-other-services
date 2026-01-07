@@ -1,0 +1,80 @@
+# 3.8 Identify other kinds of services within the scope of the exam
+
+### Observability and Monitoring
+
+Part of the well architected framework is improving continuously the designs. 
+
+| Service | Description | Typical Use |
+|-------|------------|-------------|
+| **Amazon CloudWatch** <br> <img src="../Images/image-64.png" width="100"/> | Metrics, logs, and alarms for AWS resources and apps	 | Base of AutoScaling or send Notifications (SNS),  Something is failling?|
+| **Amazon X-Ray** <br> <img src="../Images/image-66.png" width="100"/> | Distributed tracing and service maps	 | To follow a request through many services, measures latency, and detects bottlenecks
+ |
+
+ ### Integración services
+
+
+
+| Service | Purpose | Key Characteristics |
+|-------|--------|---------------------|
+| **Amazon SQS** </br>  <img src="../Images/image-20.png" width="100"/>| Message queue | Pull-based, messages stored, decouples applications |
+| **Amazon SNS** </br>  <img src="../Images/image-21.png" width="100"/>| Notifications | Push-based, pub/sub, messages not stored long-term |
+| **Amazon EventBridge** </br>  <img src="../Images/image-22.png" width="100"/>| Event bus | Event-driven architecture, system and business events |
+
+
+### Business Application Services (Customer Engagement)
+
+A service that improves agility
+
+| Service | Capacity | Typical Use |
+|------|---------|-------------|
+| **Amazon Connect** </br>  <img src="../Images/image-67.png" width="100"/>| Cloud contact center | Customer service; Voice and chat |
+| **Amazon Simple Email Service (Amazon SES)** </br>  <img src="../Images/image-68.png" width="100"/>| Email sending Service, securly and at scale|promotional, transactional, and marketing emails; from a custom domain;Inbound if configured|
+
+
+### Support and administration of Services
+
+
+[AWS Support](../Module%204/4.3_Identifying-AWS-Technical-Resources-and-AWS-Support-Options.md)
+
+[AWS Managed Services](../Module%204/4.3_Identifying-AWS-Technical-Resources-and-AWS-Support-Options.md)
+
+
+| Service | Capacity |
+|------|-------------------------|
+| **Amazon IQ** </br>  <img src="../Images/image-69.png" width="100"/>| To connect with experts that are certified |
+| **Amazon Activate** </br>  <img src="../Images/image-70.png" width="100"/>| Credits and resources for startups |
+
+### DevOps and Services for Developers
+
+| Service | Capacity | Typical Use |
+|------|---------|-------------|
+| **Amazon AppConfig** </br>  <img src="../Images/image-67.png" width="100"/>| Cloud contact center | Customer service; Voice and chat |
+| **Amazon Simple Email Service (Amazon SES)** </br>  <img src="../Images/image-68.png" width="100"/>| Email sending Service|promotional, transactional, and marketing emails; From a custom domain; Inbound if configured| 
+
+
+### End User computing Services
+
+
+
+| Service | Capacity | Typical Use |
+|------|---------|-------------|
+| **Amazon Workspaces** </br>  <img src="../Images/image-71.png" width="100"/>| Fully managed virtual desktops for Windows and Linux | Provide users with cloud-based desktops (VDI)|
+| **Amazon AppStream 2.0** </br>  <img src="../Images/image-72.png" width="100"/>| Streaming of applications|Access to specific apps| 
+| **Amazon Workspaces Web** </br>  <img src="../Images/image-73.png" width="100"/>| Access via web|Access internal websites and SaaS apps via a web browser| 
+
+
+### Frontend web and mobile
+
+| Service | Capacity | Typical Use |
+|------|---------|-------------|
+| **AWS Aplify** </br>  <img src="../Images/image-74.png" width="100"/>| virtual escritorios for linux and windows | Build, deploy, and host web and mobile applications |
+| **AWS AppSync** </br>  <img src="../Images/image-75.png" width="100"/>| Managed GraphQL API service| Combine data from multiple sources (DynamoDB, Lambda, APIs) |
+
+
+
+### IoT
+
+| Service | Capacity | Typical Use |
+|------|---------|-------------|
+| **AWS IoT Core** </br>  <img src="../Images/image-76.png" width="100"/>| Securely connect devices and ingest IoT data | Device-to-cloud secure communication |
+| **AWS IoT Greegrass** </br>  <img src="../Images/image-77.png" width="100"/>| Edge computing (local processing) | Process data locally, reduce latency, operate offline|
