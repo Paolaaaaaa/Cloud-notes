@@ -1,4 +1,21 @@
 # Services
+## Governance & Multi-Account Services
+
+| Service | What is it? | Best Use Cases |
+|-------|------------|---------------|
+| **AWS Organizations** | Centralized multi-account management | Account structure, consolidated billing, SCP enforcement |
+| **AWS Control Tower** | Automated multi-account setup with best practices | Secure and compliant AWS environment at scale |
+| **AWS Resource Access Manager (RAM)** | Resource sharing across AWS accounts | Share VPC subnets, Transit Gateways, and other resources |
+| **AWS Systems Manager – Session Manager** | Secure remote access to EC2 instances without SSH or RDP | Access EC2 securely using IAM, improve security posture, enable auditing without opening inbound ports |
+| **AWS Systems Manager** | Centralized operational management of AWS resources | Secure access to EC2 without SSH/RDP, patching, automation, auditing |
+
+
+## IAM Vs IAM Identity Center
+| Service | What is it? | Best Use Cases |
+|-------|------------|---------------|
+| **AWS Identity and Access Management (IAM)** | Manage users, roles, and permissions within AWS | Control access to AWS services using policies and roles |
+| **AWS IAM Identity Center** | Centralized identity management and single sign-on | Provide SSO access to multiple AWS accounts and applications , usually for enterprise environments |
+
 ## Networking Services
 | Service | What is it? | Best Use Cases |
 |-------|------------|---------------|
