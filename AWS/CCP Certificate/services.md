@@ -1,26 +1,44 @@
 # Services
-## Governance & Multi-Account Services
+
+
+
+## Global infrastructure
+
+<img src="Images/image-87.png" width="400"/>  <img src="Images/image-88.png" width="400"/>
 
 | Service | What is it? | Best Use Cases |
 |-------|------------|---------------|
-| **AWS Organizations** | Centralized multi-account management | Account structure, consolidated billing, SCP enforcement |
-| **AWS Control Tower** | Automated multi-account setup with best practices | Secure and compliant AWS environment at scale |
-| **AWS Resource Access Manager (RAM)** | Resource sharing across AWS accounts | Share VPC subnets, Transit Gateways, and other resources |
-| **AWS Systems Manager – Session Manager** | Secure remote access to EC2 instances without SSH or RDP | Access EC2 securely using IAM, improve security posture, enable auditing without opening inbound ports |
-| **AWS Systems Manager** | Centralized operational management of AWS resources | Secure access to EC2 without SSH/RDP, patching, automation, auditing |
+| **Availability Zone (AZ)** | One or more physically separate data centers within a region | High availability through redundant power, networking, and connectivity |
+| **AWS Region** | A geographic area containing multiple Availability Zones | Fault isolation and regional resource deployment |
+| **AWS Edge Locations** | Global points of presence for content delivery and security | Reduce latency, offload traffic from EC2, improve availability - CloudFront, Route 53, Global Accelerator, WAF, Shield |
+
+
+
+## Governance & Multi-Account Services
+
+
+| Service | What is it? | Best Use Cases |
+|-------|------------|---------------|
+| **AWS Organizations** <br> <img src="Images/image-89.png" width="100"/> | Centralized multi-account management | Account structure, consolidated billing, SCP enforcement |
+| **AWS Control Tower** <br> <img src="Images/image-90.png" width="100"/> | Automated multi-account setup with best practices | Secure and compliant AWS environment at scale |
+| **AWS Resource Access Manager (RAM)** <br> <img src="Images/image-91.png" width="100"/> | Resource sharing across AWS accounts | Share VPC subnets, Transit Gateways, and other resources |
+| **AWS Systems Manager – Session Manager** <br> <img src="Images/image-92.png" width="100"/> | Secure remote access to EC2 instances without SSH or RDP | Access EC2 securely using IAM, improve security posture, enable auditing without opening inbound ports |
+| **AWS Systems Manager** <br> <img src="Images/image-92.png" width="100"/> | Centralized operational management of AWS resources | Secure access to EC2 without SSH/RDP, patching, automation, auditing |
 
 
 ## IAM Vs IAM Identity Center
 | Service | What is it? | Best Use Cases |
 |-------|------------|---------------|
-| **AWS Identity and Access Management (IAM)** | Manage users, roles, and permissions within AWS | Control access to AWS services using policies and roles |
-| **AWS IAM Identity Center** | Centralized identity management and single sign-on | Provide SSO access to multiple AWS accounts and applications , usually for enterprise environments |
+| **AWS Identity and Access Management (IAM)** </br>  <img src="Images/image-93.png" width="100"/> | Manage users, roles, and permissions within AWS | Control access to AWS services using policies and roles |
+| **AWS IAM Identity Center** </br>  <img src="Images/image-94.png" width="100"/> | Centralized identity management and single sign-on | Provide SSO access to multiple AWS accounts and applications , usually for enterprise environments |
+
 
 ## Networking Services
 | Service | What is it? | Best Use Cases |
 |-------|------------|---------------|
-| **Amazon VPC** </br>  <img src="Images/image-62.png" width="100"/> | Isolated virtual network in AWS | Host web applications, multi-tier apps, secure environments |
+| **Amazon VPC** </br>  <img src="Images/image-95.png" width="100"/> | Isolated virtual network in AWS | Host web applications, multi-tier apps, secure environments |
 | **Amazon Route 53** </br>  <img src="Images/image-63.png" width="100"/> | Scalable DNS and domain registration | Website routing, health checks, global traffic management |
+| **Application Load Balancer (ALB)** </br>  <img src="Images/image-96.png" width="100"/>| Layer 7 load balancing within a region | Distribute traffic across targets in a single AWS Region |
 
 ## AWS Migration Tools
 
@@ -39,13 +57,22 @@
 | **Amazon RDS** </br>  <img src="Images/image-9.png" width="100"/> | Traditional applications | **SQL** | Managed relational database supporting MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB |
 | **Amazon Neptune** </br>  <img src="Images/image-10.png" width="100"/>| Complex relationships | **NoSQL (Graph)** | Graph database optimized for highly connected data |
 | **Amazon Redshift** </br>  <img src="Images/image-11.png" width="100"/>| Analytics and BI | **OLAP** | Data warehouse designed for analytics, reporting, and big data workloads |
+| **Amazon ElastiCache** </br>  <img src="Images/image-85.png" width="100"/>| Caching and in-memory data processing | **NoSQL (Key-Value / Document)** | In-memory data store for caching and real-time analytics; compatible with Redis and Memcached |
+| **Amazon TimeStream** </br>  <img src="Images/image-86.png" width="100"/>| Time-series data | **NoSQL (Time-Series)** | Managed time-series database for IoT, DevOps, and real-time analytics |
+
+
 
 # AWS Storage Services
 
 | Service | Purpose | How it Works | Pricing |
 |-------|--------|-------------|--------|
-| **Amazon S3** </br>  <img src="Images/image-5.png" width="100"/> | Object storage | Stores data as objects in buckets; scalable, durable, and accessible via HTTP | Pay as you go based on storage, requests, and data transfer |
-| **Amazon S3 Glacier Deep Archive** </br>  <img src="Images/image-6.png" width="100"/> | Long-term archival | Stores data in archives with retrieval options (Standard, Expedited, Bulk) | Pay as you go based on storage, requests, and data transfer |
+| **Amazon S3** </br>  <img src="Images/image-45.png" width="100"/> | Object storage | Stores data as objects in buckets; scalable, durable, and accessible via HTTP | Pay as you go based on storage, requests, and data transfer |
+| **Amazon S3 Glacier Deep Archive**  | Long-term archival | Stores data in archives with retrieval options (Standard, Expedited, Bulk) | Pay as you go based on storage, requests, and data transfer |
+| **Amazon EBS** </br>  <img src="Images/image-97.png" width="100"/> | Block storage for EC2 | Provides persistent block storage volumes for EC2 instances | Pay as you go based on volume type, size, and IOPS |
+| **Amazon EFS** </br>  <img src="Images/image-98.png" width="100"/> | Scalable file storage | Provides scalable file storage accessible from multiple EC2 instances | Pay as you go based on storage used and throughput |
+| **AWS Storage Gateway** </br>  <img src="Images/image-99.png" width="100"/> | Hybrid cloud storage | Connects on-premises environments to AWS cloud storage | Pay as you go based on gateway type, data transfer, and storage |
+| **Amazon FSx for Lustre** </br>  <img src="Images/image-100.png" width="100"/> | High-performance file system | HPC, machine learning, and big data workloads with high throughput | | Pay as you go based on storage and throughput |
+| **Amazon EBS multi-attach** </br>  <img src="Images/image-91.png" width="100"/> | Shared block storage for EC2 | Allows multiple EC2 instances to access a single EBS volume simultaneously | Pay as you go based on volume type, size, and IOPS |
 ## Security Controls
 
 | Service | Purpose | How it Works | Pricing |
@@ -118,7 +145,7 @@
 | **Amazon EKS** </br>  <img src="Images/image-25.png" width="100"/> | Managed Kubernetes | Complex workloads, portability, Kubernetes ecosystem |
 | **Amazon ECR** </br>  <img src="Images/image-26.png" width="100"/>| Container registry | Store and manage Docker images |
 | **AWS Fargate** </br>  <img src="Images/image-27.png" width="100"/> | Serverless containers | Run containers without managing servers |
-
+| **EC2 Fleet** </br>  <img src="Images/image-101.png" width="100"/> | Manage EC2 capacity for containers | Optimize cost and availability for container workloads |
 
 ## EC2 Pricing Models
 </br>  <img src="Images/image-23.png" width="500"/>
@@ -160,8 +187,7 @@
 | **Amazon S3 Standard-IA** | Lower-cost storage for infrequently accessed data with millisecond retrieval | Backups, disaster recovery |
 | **Amazon S3 Glacier Instant Retrieval** | Low-cost archival storage with instant access | Archive data that still needs fast access |
 | **Amazon S3 Glacier Flexible Retrieval** | Archival storage with retrieval in minutes to hours | Archives accessed occasionally |
-| **Amazon S3 Glacier Deep Archive** | L
-owest-cost storage with very slow retrieval | Long-term retention, compliance data |
+| **Amazon S3 Glacier Deep Archive** | Lowest-cost storage with very slow retrieval | Long-term retention, compliance data |
 | **AWS Macie** <br> <img src="Images/image-42.png" width="100"/> | Identify and protect sensitive data | Detects sensitive data, identifies risks, and provides insights 
 ## AI  Services (APIs and pretrained models)
 | Service | Description | Typical Use |
@@ -219,7 +245,7 @@ A service that improves agility
 | **Developer** | < 24 hours | Core checks | Basic | No (business hours) | No | Dev & test environments |
 | **Business** | < 4 hours | Full checks | Enhanced | Yes | Dedicated | Production workloads |
 | **Enterprise On-Ramp** | < 1 hour | Full checks | Enhanced | 24/7 | Shared TAM | Growing organizations |
-| **Enterprise** | < 30 minutes | Core + proactive | Enhanced | 24/7 | Dedicated TAM | Mission-critical workloads |
+| **Enterprise** | < 15 minutes | Core + proactive | Enhanced | 24/7 | Dedicated TAM | Mission-critical workloads |
 
 
 

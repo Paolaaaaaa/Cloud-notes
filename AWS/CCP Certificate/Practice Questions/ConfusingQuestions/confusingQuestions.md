@@ -293,28 +293,31 @@ Una empresa quiere mejorar su ```postura de seguridad y auditoría limitando el 
 
 
      **Respuesta correcta:**
-   > B) AWS Systems Manager Session Manager
+    B) AWS Systems Manager Session Manager
 
 > [!NOTE]
 > AWS Systems Manager Session Manager permite acceder de forma segura a las instancias de Amazon EC2 sin necesidad de abrir puertos SSH entrantes ni administrar claves SSH, mejorando la postura de seguridad y auditoría.
 
 ### Pregunta 18
-¿Qué servicio de base de datos de AWS proporciona almacenamiento de datos en memoria?
+¿Qué servicio de ```base de datos``` de AWS proporciona ```almacenamiento de datos en memoria```?
 
 
    - A) Amazon DynamoDB
    - B) Amazon ElastiCache
    - C) Amazon RDS
-   - D) Amazon Timestream
+   - D) Amazon Timestream -> NoSQL (Time-Series)
 
 
 
      **Respuesta correcta:**
-   > B) Amazon ElastiCache
 
+    B) Amazon ElastiCache
+
+> [!NOTE]
+> Amazon Elasticache es un servicio de base de datos en memoria que proporciona almacenamiento de datos en memoria para aplicaciones que requieren baja latencia y alto rendimiento.
 
 ### Pregunta 19
-¿Cuáles de los siguientes son los principios de seguridad del marco de AWS Well-Architected? (Seleccione DOS).
+¿Cuáles de los siguientes son los ```principios de seguridad``` del marco de ```AWS Well-Architected?``` (Seleccione DOS).
 
    - A) Analizar y atribuir los gastos.
    - B) Monitorear, alertar y auditar las acciones y los cambios en los recursos de AWS.
@@ -323,30 +326,39 @@ Una empresa quiere mejorar su ```postura de seguridad y auditoría limitando el 
    - E) Realizar operaciones como código.
 
      **Respuesta correcta:**
-   > B) Monitorear, alertar y auditar las acciones y los cambios en los recursos de AWS.
+    B) Monitorear, alertar y auditar las acciones y los cambios en los recursos de AWS.
 
-   > D) Proteger los datos en tránsito y en reposo.
+    D) Proteger los datos en tránsito y en reposo.
+
+> [!NOTE]
+> Monitorear, alertar y auditar las acciones y los cambios en los recursos de AWS, así como proteger los datos en tránsito y en reposo, son principios clave de seguridad del marco de AWS Well-Architected.
+
+
    ### Pregunta 20:
 
-   Una empresa tiene una aplicación sin estado que puede gestionar interrupciones. La aplicación debe estar disponible 24 horas al día. El tráfico aumenta considerablemente durante el horario comercial.
+Una empresa tiene una aplicación sin estado que ```puede gestionar interrupciones.``` La aplicación debe estar disponible ```24 horas al día```. El tráfico aumenta considerablemente ```durante el horario comercial```.
 
-   ¿Qué tipos de instancias para los picos de tráfico y de base tienen MÁS optimización de costos para cumplir con estos requisitos?
+¿Qué tipos de instancias para los picos de tráfico y de base tienen MÁS optimización de costos para cumplir con estos requisitos?
 
    - A) Instancias reservadas tanto para el pico de tráfico como para el tráfico base
-   - B) Instancias reservadas para el tráfico base e instancias de spot para el pico de tráfico mediante Amazon EC2 Fleet
+   - B) Instancias reservadas para el tráfico base e instancias de spot para el pico de tráfico mediante Amazon ```EC2 Fleet```
    - C) Instancias bajo demanda para tráfico base e instancias bajo demanda con escalado automático para picos de tráfico
-   - D) Instancias bajo demanda para el tráfico base e instancias de spot para los picos de tráfico mediante Amazon EC2 Fleet
+   - D) Instancias bajo demanda para el tráfico base e instancias de spot para los picos de tráfico mediante Amazon ```EC2 Fleet```
+
+
 
  **Respuesta correcta:**  
    > B) Instancias reservadas para el tráfico base e instancias de spot para el pico de tráfico mediante Amazon EC2 Fleet
    
- > Explicación: Las instancias reservadas optimizan costos para la capacidad base (compromiso 1–3 años). Las instancias Spot reducen costes en picos temporales; EC2 Fleet permite combinar tipos y objetivos de capacidad.  
 
-   > A es incorrecta porque las reservadas no son óptimas para picos temporales. C y D son menos costosas para la base que usar únicamente instancias bajo demanda.
    
+> [!NOTE]
+> Explicación: Las instancias reservadas optimizan costos para la capacidad base (compromiso 1–3 años). Las instancias Spot reducen costes en picos temporales; EC2 Fleet permite combinar tipos y objetivos de capacidad.  
+> EC2 Fleet permite a los usuarios gestionar y optimizar la capacidad de instancias EC2, combinando diferentes tipos de instancias y modelos de compra para satisfacer las necesidades de la carga de trabajo.
+
    ### Pregunta 21:
    
-   ¿Cuál es un ejemplo de alta disponibilidad en la nube de AWS?
+   ¿Cuál es un ejemplo de ```alta disponibilidad ```en la nube de AWS?
    
    - A) Asesoramiento del soporte técnico de AWS en cualquier momento del día
    - B) Garantía de la accesibilidad de una aplicación, incluso si falla un recurso
@@ -354,8 +366,10 @@ Una empresa quiere mejorar su ```postura de seguridad y auditoría limitando el 
    - D) Implementación en cualquier parte del mundo con el uso de regiones de AWS
    
    **Respuesta correcta:**
-   > B) Garantía de la accesibilidad de una aplicación, incluso si falla un recurso
-   
+   B) Garantía de la accesibilidad de una aplicación, incluso si falla un recurso
+
+
+   > [!NOTE]
    > Explicación: La alta disponibilidad asegura que una aplicación permanezca accesible aun si falla un recurso, evitando puntos únicos de error.
    ______________
    ________
