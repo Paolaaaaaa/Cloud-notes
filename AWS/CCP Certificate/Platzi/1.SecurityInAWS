@@ -1,0 +1,51 @@
+# Security in AWS
+
+
+## Least Privilege Principle 
+
+***Definition: The principle of least privilege is a security concept that dictates that any user, program or system should have the minimum level of access.***
+
+### In AWS:
+- **IAM Policies**: To create the user and roles with specific permissions.
+
+## Root User
+
+***Definition: A root user has access to all services and resources in an account.***
+
+### In AWS:
+- **Root User**: The root user is the account owner and has full access to all AWS services and resources.
+- **Best Practice**: It is recommended to avoid using the root user for daily operations. Instead, use IAM users and roles with specific permissions.
+- **Recommended Uses of Root User**:
+    - Change account settings
+    - Close the AWS account
+    - Manage payment methods
+    - Restore IAM user permissions
+
+## IAM Users
+IAM allows you to create users and roles with specifict permissions to access AWS services and resources.
+### In AWS:
+**Best Practices for IAM Users**:
+- Don't use Root User for everyday tasks
+- Create a IAM User with administrative privileges for daily tasks
+- Monitor and setup petmits to IAM users with IAM Access Analyzer
+- Enable Multi-Factor Authentication (MFA) for all users 
+
+## Good Practices for Security in AWS
+### In Accounts:
+- Enable MFA for root user and all IAM users
+- Use strong passwords and rotate them regularly
+- Create IAM users with least privilege access
+
+### Ciphering and Data Protection:
+- Activate ```ciphering by default for S3 buckets```
+- Use AWS Key Management Service (KMS) for managing encryption keys
+- Data in transit: Use SSL/TLS for secure data transmission
+
+### Manage Vulnerabilities:
+- ```Use Amazon inspector``` to identify security vulnerabilities in your AWS resources
+- Integrate ```AWS Security Hub``` to centrilize security findings and automate compliance checks
+
+### Audit and Reporting:
+- Use ```AWS CloudTrail``` to log and monitor account activity
+- Check logs regularly for suspicious activity
+

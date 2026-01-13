@@ -11,6 +11,7 @@
 | **Availability Zone (AZ)** | One or more physically separate data centers within a region | High availability through redundant power, networking, and connectivity |
 | **AWS Region** | A geographic area containing multiple Availability Zones | Fault isolation and regional resource deployment |
 | **AWS Edge Locations** | Global points of presence for content delivery and security | Reduce latency, offload traffic from EC2, improve availability - CloudFront, Route 53, Global Accelerator, WAF, Shield |
+| **AWS Local Zones** | Extension of an AWS Region that places compute, storage, database, and other select AWS services closer to large population, industry, and IT centers | Low-latency applications, data residency requirements - services such as EC2, Lambda, RDS, and S3 |
 
 
 

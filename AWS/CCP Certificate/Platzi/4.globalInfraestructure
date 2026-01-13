@@ -1,0 +1,35 @@
+# Global Infrestatructure in AWS
+
+## Local Zones
+***Definition: AWS Local Zones are a extension of an AWS Region that places compute, storage, database, and other select AWS services closer to large population, industry, and IT centers.***
+**Some services are not available in Local Zones.**: For example, Amazon RDS, Amazon Redshift, and Amazon EMR are not available in Local Zones.
+
+> It allows to run latency-sensitive applications closer to end-users.
+> compliance with data residency requirements.
+## AWS Outposts
+
+***Definition: AWS Outposts is a fully managed service that extends AWS infrastructure, services, APIs, and tools to virtually any datacenter, colocation space, or on-premises facility for a truly consistent hybrid experience.***
+
+ <br> <img src="../Images/image-39.png">
+
+
+ ## Edge Locations
+
+***Definition: Edge Locations are data centers that are part of the AWS global network and are used to deliver content to end-users with low latency.***
+> chache content closer to users for faster delivery.
+
+**Some AWS services that use Edge Locations**:
+- Amazon CloudFront: A content delivery network (CDN) service that uses Edge Locations to deliver content with low latency.
+- AWS Global Accelerator: A service that improves the availability and performance of applications by routing traffic through the AWS global network.
+- Amazon Route 53: A scalable Domain Name System (DNS) web service that uses Edge Locations to route end-users to the nearest AWS endpoint.
+
+
+Pregunta: Por requerimientos de compliance (cumplimiento de leyes) dentro del país, tú debes desplegar una aplicación cuya base de datos nunca deje el país. Sin embargo, el usuario no puede utilizar su data center propio (on-premise). ¿Cuál de las siguientes opciones es la más óptima para desplegar la base de datos según los requerimientos?
+
+a) Desplegar en una zona de disponibilidad
+
+b) Desplegar en AWS Outposts
+
+´´´c) Desplegar en una Local Zone´´´
+
+d) Desplegar en una Edge Location
