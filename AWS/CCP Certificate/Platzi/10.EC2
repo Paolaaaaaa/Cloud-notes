@@ -1,0 +1,53 @@
+# EC2 in AWS
+
+Allows user to to run virtual servers in the cloud.
+
+## EBS (Elastic Block Store)
+***Definition: Amazon Elastic Block Store (Amazon EBS) provides block-level storage volumes for use with Amazon EC2 instances.***
+
+Like a hard drive in the cloud.
+
+## SO (Operating System) for EC2
+- Amazon Linux
+- Windows 
+- MacOS
+
+## Chose CPU, RAM and Storage
+When you launch an EC2 instance, you can choose the instance type that best fits your needs based on the required CPU, RAM, and storage capacity.
+
+## Chose network Interface Card
+Chose velocity and assign a public or private IP.
+
+## User Data
+You can provide user data to an EC2 instance at launch time to perform common automated configuration tasks and even run scripts after the instance starts.
+
+## EC2 instance names
+First letter is the family, the number is the generation, and the last letters are the type of instance.
+- General Purpose: t3, m5, a1
+- Compute Optimized: c5
+- Memory Optimized: r5, x1e
+- Storage Optimized: i3, d2
+- Accelerated Computing: p3, g4
+
+The number indicates the generation of the instance type. For example, m5 is the fifth generation of the M family of instances.
+
+Then there is the size of the instance:
+- Large: l
+- Extra Large: x
+- Double Extra Large: dx
+- Quadruple Extra Large: qx
+
+## Elastic load Balancer (ELB)
+***Definition: An Elastic Load Balancer (ELB) automatically distributes incoming application traffic across multiple
+
+## Amazon EC2 Auto Scaling 
+***Definition: Amazon EC2 Auto Scaling helps you maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define.***
+
+## Cloudwatch
+***Definition: Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers.***
+
+
+
+
+
+
