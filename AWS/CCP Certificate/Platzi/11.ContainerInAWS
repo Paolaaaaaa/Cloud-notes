@@ -1,0 +1,11 @@
+# AWS containers services
+
+## Container Services
+
+| Service | Description | When to Use |
+|-------|------------|------------|
+| **Amazon ECS** </br>  <img src="Images/image-24.png" width="100"/>| AWS-native container orchestration | Stable workloads, tight AWS integration |
+| **Amazon EKS** </br>  <img src="Images/image-25.png" width="100"/> | Managed Kubernetes | Complex workloads, portability, Kubernetes ecosystem |
+| **Amazon ECR** </br>  <img src="Images/image-26.png" width="100"/>| Container registry | Store and manage Docker images |
+| **AWS Fargate** </br>  <img src="Images/image-27.png" width="100"/> | Serverless containers | Run containers without managing servers |
+| **EC2 Fleet** </br>  <img src="Images/image-101.png" width="100"/> | Manage EC2 capacity for containers | Optimize cost and availability for container workloads |
