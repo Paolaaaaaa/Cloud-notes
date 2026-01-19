@@ -27,6 +27,16 @@
 | **AWS Systems Manager** <br> <img src="Images/image-92.png" width="100"/> | Centralized operational management of AWS resources | Secure access to EC2 without SSH/RDP, patching, automation, auditing |
 
 
+## Connectivity Services
+
+| Service | What is it? | Best Use Cases |
+|-------|------------|---------------|
+| **AWS Direct Connect** </br>  <img src="Images/image-107.png" width="100"/> | Dedicated private network connection to AWS | High bandwidth, low latency, secure connections to AWS |
+| **AWS VPN site-to-site** </br>  <img src="Images/image-110.png" width="100"/> | Encrypted connection over the internet to AWS | Secure connectivity for hybrid cloud architectures |
+|**AWS Client VPN** </br>  <img src="Images/image-108.png" width="100"/> | Managed client-based VPN service | Secure remote access for users to AWS and on-premises networks |
+| **AWS PrivateLink** </br>  <img src="Images/image-109.png" width="100"/> | Private connectivity to AWS services using VPC endpoints | Access AWS services without traversing the public internet |
+|
+
 ## IAM Vs IAM Identity Center
 | Service | What is it? | Best Use Cases |
 |-------|------------|---------------|
@@ -60,6 +70,8 @@
 | **Amazon Redshift** </br>  <img src="Images/image-11.png" width="100"/>| Analytics and BI | **OLAP** | Data warehouse designed for analytics, reporting, and big data workloads |
 | **Amazon ElastiCache** </br>  <img src="Images/image-85.png" width="100"/>| Caching and in-memory data processing | **NoSQL (Key-Value / Document)** | In-memory data store for caching and real-time analytics; compatible with Redis and Memcached |
 | **Amazon TimeStream** </br>  <img src="Images/image-86.png" width="100"/>| Time-series data | **NoSQL (Time-Series)** | Managed time-series database for IoT, DevOps, and real-time analytics |
+| **AWS Quantum Ledger Database (QLDB)** </br>  <img src="Images/image-106.png" width="100"/>| Immutable and cryptographically verifiable ledger | **SQL** | Managed ledger database for applications requiring an immutable and verifiable record of transactions |
+
 
 
 
