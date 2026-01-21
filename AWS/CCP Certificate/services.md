@@ -1,6 +1,15 @@
 # Services
 
 
+## 
+
+
+| Service | What is it? | Best Use Cases |
+|-------|------------|---------------|
+|**AWS Service Catalog** <br> <img src="Images/image-105.png" width="100"/> | Create and manage approved catalogs of AWS resources | Standardize resource provisioning, enforce compliance |
+|**AWS CloudFormation** <br> <img src="Images/image-62.png" width="100"/> | Infrastructure as Code (IaC) service | Automate resource provisioning using templates |
+|**Service Quotas** <br> <img src="Images/image-104.png" width="100"/> | Manage and monitor AWS service limits | Request limit increases, track usage against quotas |
+|**AWS Health Dashboard** <br> <img src="Images/image-103.png" width="100"/> | Personalized view of AWS service health | Monitor service status, receive alerts for issues |
 
 ## Global infrastructure
 
@@ -202,6 +211,8 @@
 | **Amazon S3 Glacier Flexible Retrieval** | Archival storage with retrieval in minutes to hours | Archives accessed occasionally |
 | **Amazon S3 Glacier Deep Archive** | Lowest-cost storage with very slow retrieval | Long-term retention, compliance data |
 | **AWS Macie** <br> <img src="Images/image-42.png" width="100"/> | Identify and protect sensitive data | Detects sensitive data, identifies risks, and provides insights 
+
+
 ## AI  Services (APIs and pretrained models)
 | Service | Description | Typical Use |
 |-------|------------|-------------|
@@ -225,7 +236,7 @@
 | Service | Description | Typical Use |
 |-------|------------|-------------|
 | **Amazon Athena** <br> <img src="Images/image-56.png" width="100"/> | Serverless interactive query service | Analyze data in S3 using SQL |
-| **Amazon EMR** <br> <img src="Images/image-57.png" width="100"/> | Managed big data platform | Process large datasets using Hadoop, Spark |
+| **Amazon EMR (Elastic MapReduce)** <br> <img src="Images/image-57.png" width="100"/> | Managed big data platform | Process large datasets using Hadoop, Spark |
 | **Amazon Kinesis** <br> <img src="Images/image-58.png" width="100"/> | Real-time data streaming service | Collect, process, and analyze streaming data |
 | **AWS Glue** <br> <img src="Images/image-59.png" width="100"/> | Managed ETL service | Prepare and transform data for analytics |
 | **Amazon QuickSight** <br> <img src="Images/image-60.png" width="100"/> | Business intelligence service | Create visualizations and dashboards |
