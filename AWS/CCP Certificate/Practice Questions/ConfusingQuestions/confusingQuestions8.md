@@ -1,6 +1,8 @@
 ## AWS Certified Cloud Practitioner - Confusing Questions Set 8
 
+Question created by 
 
+https://kananinirav.com/practice-exam/practice-exam-1.html
 
 ## Question 16:
 
@@ -82,3 +84,48 @@ What should you do in order to keep the data on EBS volumes safe? (Choose TWO)
 
 Response: B, C
 > To keep data on EBS volumes safe, you should create EBS snapshots (B) and ensure that EBS data is encrypted at rest (C). EBS snapshots provide a backup of your data, while encryption helps protect the data from unauthorized access.
+
+
+## Question 22:
+
+What do you gain from setting up consolidated billing for five different AWS accounts under another master account?
+- A. AWS services’ costs will be reduced to half the original price.
+- B. The consolidated billing feature is just for organizational purpose.
+- C. Each AWS account gets volume discounts.
+- D. Each AWS account gets five times the free-tier services capacity.
+Answer
+Correct answer: C
+> By setting up consolidated billing, each AWS account can benefit from volume discounts based on the total usage across all accounts. This can lead to cost savings as the combined usage may qualify for lower pricing tiers.
+
+## Question 23:
+
+Which of the following services allows customers to manage their agreements with AWS?
+- A. AWS Artifact.
+- B. AWS Certificate Manager.
+- C. AWS Systems Manager.
+- D. AWS Organizations.
+Answer
+Correct answer: A
+> AWS Artifact is a service that allows customers to manage their agreements with AWS, including access to compliance reports and security and compliance documentation.
+
+## Question 24:
+
+As part of the Enterprise support plan, who is the primary point of contact for ongoing support needs?
+- A. AWS Identity and Access Management (IAM) user.
+- B. Infrastructure Event Management (IEM) engineer.
+- C. AWS Consulting Partners.
+- D. Technical Account Manager (TAM).
+Answer
+Correct answer: D
+> A Technical Account Manager (TAM) is the primary point of contact for ongoing support needs for customers with an AWS Enterprise Support plan. The TAM provides personalized guidance and assistance to help optimize the customer's AWS environment.
+
+
+## Question 25:
+
+Which of the following must an IAM user provide to interact with AWS services using the AWS Command Line Interface (AWS CLI)?
+- A. Access keys.
+- B. Secret token.
+- C. UserID.
+- D. User name and password.
+>Response: A
+> To interact with AWS services using the AWS Command Line Interface (AWS CLI), an IAM user must provide access keys, which consist of an Access Key ID and a Secret Access Key. These credentials are used to authenticate API requests made through the CLI.
