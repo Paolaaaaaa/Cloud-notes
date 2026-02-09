@@ -12,7 +12,7 @@ This questions where retrived from here
 - C. Amazon EBS
 - D. Amazon S3
 
-> Response: A
+> Response: B
 
 > Archive data:
 - Old/Historiclal
